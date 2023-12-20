@@ -36,7 +36,7 @@ while True:
                 x_change = x_change - snake_part
                 y_change = 0
             if event.key == pg.K_LEFT: # qua trai
-                x_change = x_change - snake_part
+                x_change = x_change - snake_part #tọa độ giảm dần về 0
                 y_change = 0
             if event.key == pg.K_LEFT: # qua trai
                 x_change = x_change - snake_part
